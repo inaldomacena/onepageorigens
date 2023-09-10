@@ -1,0 +1,686 @@
+
+<html>
+<head>   
+<meta charset="utf-8">
+<title>Rádio nova</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="theme-color" content="#A3124C">
+<meta http-equiv="Content-Language" content="pt-BR" />
+<meta name="description" content="Ouça ao vivo suas músicas preferidas, fique mais perto dos seus ídolos e participe das melhores promoções!">
+<meta name="keywords" content="rádio, rádios, radio, radios, musica, musicas, vivo, streaming, noticias, notícias, mix, promoções, promoções, premios, prêmios, online, webradio, webradios, fm, celular, iphone, android, zadax" />
+<meta name="URL" content="https://alternativa" />
+
+<meta name="LANGUAGE" content="pt-BR" />
+<meta name="country" content="Brazil"/>
+<meta name="Language" content="PT, PORTUGUESE PORTUGUES, BR" />
+<meta name="distribution" content="Global" />
+<meta name="rating" content="General" />
+<meta name="Googlebot" content="index, follow">
+<meta name="QQbot" content="index, follow">
+<meta name="Baidubot" content="index, follow">
+<meta name="Yahoo Slurp" content="index, follow">
+<meta name="Yahoobot" content="index, follow">
+<meta name="Amazonbot" content="index, follow">
+<meta name="Yahoobot" content="index, follow">
+<meta name="Unknownbot" content="index, follow">
+<meta name="MSN-media-crawl" content="index, follow">
+<meta name="Msnbot" content="index, follow">
+<meta name="robots" content="all" />
+
+<meta property="fb:pages" content="zadaxhost" />
+<meta property="fb:admins" content="zadaxhost">
+<meta property="og:type" content="music.radio_station">
+<meta property="og:description" content="Ouça ao vivo suas músicas preferidas, fique mais perto dos seus ídolos e participe das melhores promoções!">
+<meta property="og:image" content="https://teste.zadax.com.br/admin/midia/6b9c427ea3b6725a157e3f66e50a43ea.png" />
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Rádio Web Intermares" />
+<meta property="og:title" content="Rádio Web Intermares">
+<meta property="og:url" content="//teste.zadax.com.br">
+
+<link rel="manifest" href="./manifest.json?_72">
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://teste.zadax.com.br/admin/midia/180x180.png?73">
+<link rel="icon" type="image/png" sizes="32x32" href="https://teste.zadax.com.br/admin/midia/32x32.png?82">
+<link rel="icon" type="image/png" sizes="16x16" href="https://teste.zadax.com.br/admin/midia/16x16.png?69">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://teste.zadax.com.br/app/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" media="screen" href="https://teste.zadax.com.br/app/assets/css/styles.css">
+<link href="https://teste.zadax.com.br/app/modern-ticker/css/modern-ticker.css" type="text/css" rel="stylesheet">
+<link href="https://teste.zadax.com.br/app/modern-ticker/themes/theme1.css" type="text/css" rel="stylesheet">
+<link href='https://teste.zadax.com.br/mbapp.css.php' rel='stylesheet' type='text/css'> 
+
+<link href='https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.2/css/material-design-iconic-font.min.css' rel='stylesheet' type='text/css'>
+ 
+<link rel="stylesheet" href="./css/modern-ticker.css">
+<link rel="stylesheet" href="./theme1.css">
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>      
+<!-- <script src="https://teste.zadax.com.br/app/modern-ticker/js/jquery-3.2.1.min.js" type="text/javascript"></script> -->
+<script src="https://teste.zadax.com.br/app/modern-ticker/js/jquery.modern-ticker.min.js" type="text/javascript"></script>
+
+<script src=""></script>
+<script src=""></script>
+<script src=""></script>
+<!-- <script src="https://teste.zadax.com.br/app/assets/vendor/counterup/counterup.min.js"></script> -->
+<script src="https://teste.zadax.com.br/app/assets/js/main.js"></script>
+<script src="https://teste.zadax.com.br/app/assets/js/lunaradio-sincors.js"></script>
+
+<style>
+.nav-menu *{
+  margin:0;
+  padding:0;
+  list-style:none
+}
+.nav-menu>ul>li{
+  position:relative;
+  white-space:nowrap;
+}
+.nav-menu a{
+  display:flex;
+  align-items:center;
+  color:#FFFFFF;
+  padding:10px 15px;
+  margin-bottom:8px;
+  transition:.3s;
+  font-size:15px;
+  border-radius:150%;
+  background:#A3124C;
+  height:46px;
+  width:46px;
+  overflow:hidden;
+  transition:.3s
+}
+.nav-menu a i{
+  font-size:20px
+}
+@media (min-width:3000px){
+  .nav-menu a{
+    width:56px
+  }
+}
+.nav-menu .active>a,.nav-menu a:hover,.nav-menu li:hover>a{
+    color:#FFFFFF;
+    background:#A3124C;
+    border:solid 1px #FFFFFF;
+}
+.mobile-nav-toggle{
+  position:fixed;
+  right:-10px;
+  top:5px;
+  z-index:99;
+  border:0;
+  background:0 0;
+  font-size:26px;
+  transition:all .4s;
+  outline:0!important;
+  line-height:1;
+  cursor:pointer;
+  text-align:right
+}
+.mobile-nav-toggle i{
+  color:#FFFFFF}
+.mobile-nav-active{
+  overflow:hidden
+}
+.mobile-nav-active #header{
+  left:0;
+}
+.mobile-nav-active .mobile-nav-toggle i{
+  color:#FFFFFF  }
+@media (max-width:991px){
+  .nav-menu a{
+     color:#A3124C;
+     background:#FFFFFF;
+  }
+  #header-right .nav-menu{
+    display:none
+    }
+}
+
+#header{
+  position:fixed;
+  top:0;
+  left:0;
+  bottom:top;
+  z-index:100;
+  transition:all .5s;
+  padding-top:20px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:100vh;
+  overflow-y:auto;
+  background:rgba(255,255,255,0)
+  }
+#header-right{
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:top;
+  z-index:1;
+  transition:all .5s;
+  padding-top:20px;
+  padding-left:20px;
+  padding-right:20px;
+  overflow-y:auto;
+  background:rgba(255,255,255,0)
+}
+@media (max-width:991px){
+    #header{
+        width:auto;
+        background:#A3124C;
+        left:-300px;
+        box-shadow: 5px 0 5px -5px black;
+        -webkit-box-shadow: 5px 0 5px -5px black;
+           -moz-box-shadow: 5px 0 5px -5px black;
+                box-shadow: 5px 0 5px -5px black;        
+        }
+}
+input[type=text], input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+.sendbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #008000;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+.containers {
+  padding: 16px;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9992;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.6);
+  padding-top: 60px;
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 50%;
+  top:-100px;
+}
+/*.modal-content {
+  background-color: #fefefe;
+  margin: 0 auto 15% auto;
+  border: 1px solid #888;
+  width: 90%;
+  top:-50px;
+}*/
+.closemodal {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.closemodal:hover,
+.closemoal:focus {
+  color: red;
+  cursor: pointer;
+}
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+
+@media screen and (max-width: 768px) {
+  .modal-content {
+     width: 96%;
+     top: 1px;
+  }  
+}
+  
+
+
+/* Messages */
+.message {
+  color: #000;
+  clear: both;
+  line-height: 18px;
+  font-size: 15px;
+  padding: 8px;
+  position: relative;
+  margin: 8px 0;
+  max-width: 99%;
+  word-wrap: break-word;
+  z-index: -1;
+}
+.message:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+
+
+  
+.message.sent:after {
+  border-width: 0px 0 10px 10px;
+  border-color: transparent transparent transparent #e1ffc7;
+  top: 0;
+  right: -10px;
+}
+.message.out {
+  background: #FFEAEA;
+  border-radius: 5px 0px 5px 5px;
+  float: right;
+}
+.message.out:after {
+  border-width: 0px 0 10px 10px;
+  border-color: transparent transparent transparent #FFEAEA;
+  top: 0;
+  right: -10px;
+}
+/* Compose */
+.conversation-compose {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  overflow: hidden;
+  height: 50px;
+  width: 100%;
+  z-index: 2;
+}
+.conversation-compose div,
+.conversation-compose textarea {
+  background: #fff;
+  height: 100%;
+}
+.conversation-compose div,
+.conversation-compose input {
+  background: #fff;
+  height: 100%;
+}
+.conversation-compose .emoji {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 5px 0 0 5px;
+  flex: 0 0 auto;
+  margin-left: 8px;
+  width: 48px;
+}
+.conversation-compose .input-msg {
+  color: #000;
+  border: 0;
+  flex: 1 1 auto;
+  font-size: 16px;
+  margin: 0;
+  outline: none;
+  min-width: 50px;
+}
+.conversation-compose .photo {
+  flex: 0 0 auto;
+  border-radius: 0 0 5px 0;
+  text-align: center;
+  position: relative;
+  width: 48px;
+}
+.conversation-compose .photo:after {
+  border-width: 0px 0 10px 10px;
+  border-color: transparent transparent transparent #fff;
+  border-style: solid;
+  position: absolute;
+  width: 0;
+  height: 0;
+  content: "";
+  top: 0;
+  right: -10px;
+}
+.conversation-compose .photo i {
+  display: block;
+  color: #7d8488;
+  font-size: 24px;
+  transform: translate(-50%, -50%);
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+.conversation-compose .send {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  flex: 0 0 auto;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 0;
+  position: relative;
+  outline: none;
+}
+.conversation-compose .send .circle {
+  background: #A3124C;
+  border-radius: 50%;
+  color: #fff;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conversation-compose .send .circle i {
+  font-size: 24px;
+  margin-left: 5px;
+}
+
+.marvel-device.nexus5 {
+    border-radius: 0;
+    flex: none;
+    padding: 0;
+    max-width: none;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
+  .screen-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .conversation {
+    height: calc(100vh - 55px);
+  }
+  .conversation .conversation-container {
+    height: calc(100vh - 120px);
+  }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.3);
+  z-index: 1;
+  right:0;
+  top:40px;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.show {
+  display: block;
+}
+.close {
+  display: none;
+}
+.page {
+  background: #efe7dd url("") repeat;
+}
+
+
+
+
+
+@keyframes slide-menu-on {
+    from{right: -100%;}
+    to{right: 0;}
+}
+
+@keyframes slide-menu-off {
+    from{right: 0;}
+    to{right: -100%;}
+}
+.menu {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    position: fixed;
+    right: -100%;
+    top: 0;
+    color: #fff;
+    font-size: 18px;
+    z-index: 10;
+}
+
+.menu > div {
+    margin: 0 0;
+    padding: 1px 0;
+}
+</style> 
+
+
+   </head>  
+   <!-- <body oncontextmenu='return false'> -->
+    <body>     
+    
+
+      
+      <header id="header" class="d-flex flex-column justify-content-center">
+          <nav class="nav-menu">
+            <ul>                       
+<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+<li><a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+<li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
+<li><a href="https://whatsa.me/" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+
+<li><a style="cursor: pointer;" onclick="document.getElementById('id02').style.display='block'"><i class="fa fa-at"></i></a></li>
+
+
+
+            </ul>
+         </nav>         
+      </header>
+
+
+
+    
+
+
+  </form>
+</div>      
+   
+
+
+
+<div id="id02" class="modal"> 
+  <form id="contact_form" class="modal-content animate" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="closemodal" title="Fechar Modal">&times;</span>
+      <h2 style="font-size: 20px"><i class="fa fa-at"></i> Contato</h2>
+    </div>
+
+    <div class="containers"> 
+      <label for="meunome"><b>Seu Nome</b></label>
+      <input type="text" placeholder="Entre com seu nome" name="nome" id="frmnome" maxlength="15" autocomplete="off" required="required">
+
+      <label for="uname"><b>Seu E-mail</b></label>
+      <input type="email" class="form-control" placeholder="Entre com seu e-mail" name="email" id="frmemail" autocomplete="off" required="required">
+
+      <label for="uname"><b>Assunto</b></label>
+      <input type="text" class="form-control" placeholder="Qual o assunto" name="assunto" id="assunto" autocomplete="off" required="required">      
+
+      <label for="psw"><b>Mensagem</b></label>
+      <textarea name="mensagem" id="memnsagem" class="form-control" rows="5" cols="25" placeholder="Digite sua mensagem" required="required"></textarea>
+      
+      <label id="msgfrm" style="color:#FF0000"></label> 
+    
+    </div>     
+      
+    <div class="containers" style="background-color:#f1f1f1;text-align: center;">
+      <button type="submit" id="sendfrm" class="sendbtn">Enviar</button><br>
+    </div>
+           
+  </form>
+</div>
+
+<div id="id04" class="modal"> 
+  <div class="modal-content animate" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id04').style.display='none'" class="closemodal" title="Fechar Modal">&times;</span>
+      <h2 style="font-size: 20px">Entrar no chat</h2>
+    </div>
+
+    
+
+    <div class="containers" style="background-color:#f1f1f1">
+    
+    
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- START -->
+<div id="menu-ce" class="menu" style="z-index: 9990;animation-name: slide-menu-off; animation-duration: 1s;right: -100%;display: none"> 
+ 
+<div class="page">  
+  <div class="marvel-device nexus5" >
+    <div class="screen">
+      <div class="screen-container">
+        </div>
+        <div class="chat">
+          <div class="chat-container">          
+          <center>
+            <div class="user-bar">
+              <div class="back" id="cls-btnmb" style="cursor: pointer;">
+              <!-- <a href="./miolochat" target="_blank" id="small" style="">     -->
+                <i class="zmdi zmdi-long-arrow-right" style="color: white;"></i>
+              <!-- </a>  -->
+             
+          </center>
+            
+
+            <div class="conversation">
+              <div class="conversation-container" style="overflow: hidden">
+                <br>
+                  <center><div id="chatbox" style="margin-top: 5px;">
+                       <!-- CONTEÚDO -->
+                  </div></center>
+              <form id="sendmsg" class="conversation-compose" style="position: fixed;bottom: 10px;width: 97%;margin-left: -10px;display: none;">
+                <textarea style="border-radius: 5px;" class="input-msg" id="usermsg" name="input" placeholder="Mensagem" autocomplete="off" autofocus></textarea>
+                <div class="send" id="submitmsg"><div class="circle"><i class="zmdi zmdi-mail-send"></i></div></div>
+              </form>
+                      
+              </div>
+              <!-- conversation-container -->
+            </div>
+            <!-- conversation -->           
+            </div>
+            <!-- user-bar -->
+          </div>
+          <!-- chat-container -->
+        </div>
+        <!-- chat -->
+      </div>
+      <!-- status-bar -->
+      </div>
+      <!-- screen-container -->
+    </div>
+    <!-- marvel-device nexus5 -->          
+</div>
+<!-- END -->
+
+<div id="player"></div>
+<div id="preloader"></div>
+
+
+
+<style>         
+   @keyframes shadow-pulse {
+       0% {
+           box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+       }
+       100% {
+           box-shadow: 0 0 0 25px rgba(255, 255, 255, 0);
+       }
+ 
+   }
+
+   .install {
+       position: fixed;
+       bottom: 115px;
+       right: 50px;
+       border-radius: 5px;
+       animation: shadow-pulse 1.5s infinite;
+   }
+
+   @media (max-width: 670px) {
+      .install {
+        bottom: 120px;
+        right: 10%;
+        transform: translateX(15%);
+      }
+       .install img{
+        width: 100px !important;
+      }
+   }
+    .install img{
+      width: 150px;
+    }
+</style>
+
+<div class="install" id="enable-banner-install" style="float:right;z-index: 1000;">
+  <img src="./assets/images/WhatsApp Image 2022-02-24 at 00.26.14.jpeg">
+</div>
+
+
+
+<body>
+<html>
